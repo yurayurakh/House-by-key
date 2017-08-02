@@ -1,0 +1,32 @@
+.footer {
+  background: #333333;
+  padding: 20px 0 15px;
+  &__logo {
+    margin-top: 15px;
+  }
+  .copyright {
+    text-align: center;
+    color: #ffffff;
+    margin-top: 25px;
+  }
+  .row {
+    .footer__phone {
+      color: #ffffff;
+      .number {
+        .number-descr {
+          color: #ffffff;
+        }
+      }
+      .call-phone {
+        .footer-call {
+          color: #ffffff;
+          border-bottom: 1px dashed #ffffff;
+          &:hover {
+            text-decoration: none;
+            border-bottom: 1px solid #ffffff;
+          }
+        }
+      }
+    }
+  }
+}

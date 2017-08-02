@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="0fef3ee5-0f9d-471e-ae6c-79e7aa6d8ad6" name="BusinessForum" url="http://185.86.76.123">
+        <fileTransfer host="185.86.76.123" port="32000">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
+          </advancedOptions>
+          <option name="port" value="32000" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

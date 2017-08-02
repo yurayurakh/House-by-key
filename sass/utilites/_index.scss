@@ -1,0 +1,44 @@
+$main_font_size: 14px;
+$main_font_color: #2c2b2a;
+$main_font_family: 'MuseoSansRegular';
+$main_font_familyBold: 'MuseoSansBlack';
+$AGBengalyRoman: 'AGBengaly';
+$bg_color: #ffffff;
+$green-color: #16c044;
+$line_height: 1.5em;
+
+
+@font-face {
+  font-family:'MuseoSansBlack';
+  src: url('../fonts/MuseoSansBlack.woff') format('woff'),
+  url('../fonts/MuseoSansBlack.otf') format('opentype'),
+  url('../fonts/MuseoSansBlack.ttf');
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-0525;
+}
+
+@font-face {
+  font-family:'MuseoSansRegular';
+  src: url('../fonts/MuseoSansRegular.woff') format('woff'),
+  url('../fonts/MuseoSansRegular.otf') format('opentype'),
+  url('../fonts/MuseoSansRegular.ttf');
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-0525;
+}
+
+@font-face {
+  font-family:'AGBengaly';
+  src: url('../fonts/AGBengaly Roman.eot');
+  src: url('../fonts/AGBengaly Roman.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/AGBengaly Roman.woff2') format('woff2'),
+  url('../fonts/AGBengaly Roman.woff') format('woff'),
+  url('../fonts/AGBengaly Roman.svg#AGBengaly Roman') format('svg');
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-00BB;
+}
